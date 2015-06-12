@@ -23,7 +23,7 @@ parsed.protocol; // http
 parsed.username; // bob
 parsed.password; // secret
 parsed.host;     // any.host:1337
-parsed.port;     // port
+parsed.port;     // 1337
 parsed.search;   // ?foo=bar
 parsed.hash;     // #jumpto
 ```
