@@ -1,0 +1,23 @@
+{
+  "name": "anchorize.js",
+  "main": "anchorize.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/BaggersIO/anchorize",
+  "authors": [
+    "Peter Müller <peter@baggers.io>"
+  ],
+  "description": "Super fast and solid client-side URL parser.",
+  "keywords": [
+    "URL",
+    "parser",
+    "anchorize"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
