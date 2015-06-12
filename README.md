@@ -17,9 +17,13 @@ bower install anchorize
 ## Example
 
 ```js
-anchorize('http://bob:secret@any.host:1337/sub/path?foo=bar#jumpto');
-```
+var parsed = anchorize('http://bob:secret@any.host:1337/sub/path?foo=bar#jumpto');
 
-```json
-{"protocol":"http:","username":"bob","password":"secret","host":"any.host:1337","port":"1337","search":"?foo=bar","hash":"#jumpto"}
+parsed.protocol; // http
+parsed.username; // bob
+parsed.password; // secret
+parsed.host;     // any.host:1337
+parsed.port;     // port
+parsed.search;   // ?foo=bar
+parsed.hash;     // #jumpto
 ```
